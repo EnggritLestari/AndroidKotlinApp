@@ -4,9 +4,6 @@ plugins {
 }
 
 android {
-    buildFeatures {
-        viewBinding = true
-    }
     namespace = "id.ac.polbeng.enggrit.androidkotlinapp"
     compileSdk = 34
 
@@ -36,6 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
+
 }
 
 dependencies {
